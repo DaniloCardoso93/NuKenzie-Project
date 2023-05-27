@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.box__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+@media (min-width:1200px) {
+    main {
+        flex-direction: row;
+    }
+
+    .box__nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 65%;
+        margin-top: 20px;
+    }
+
+}

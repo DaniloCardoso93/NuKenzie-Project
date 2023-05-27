@@ -1,0 +1,19 @@
+.section__money {
+    width: 92%;
+    border: 1px solid var(--grey2);
+    border-radius: 4px;
+    padding: 20px;
+    background-color: var(--color-primary2);
+    color: var(--white);
+}
+
+@media (min-width:427px) {
+    .section__money {
+        width: 65%;
+        margin-top: 40px;
+        margin-right: 60px;
+        border: 1px solid var(--grey2);
+        border-radius: 4px;
+        padding: 38px 24px;
+    }
+}

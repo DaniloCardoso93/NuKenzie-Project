@@ -1,0 +1,19 @@
+.list__card__deposit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey1);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid var(--color-secondary);
+}
+
+.list__card__withdraw {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey1);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid var(--grey2);
+}

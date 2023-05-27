@@ -1,0 +1,35 @@
+.title1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.headline {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.text1 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.helpText {
+    font-size: x-small;
+    display: block;
+    margin: 4px 0 18px 0;
+}

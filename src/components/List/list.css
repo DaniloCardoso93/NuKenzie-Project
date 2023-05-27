@@ -1,0 +1,11 @@
+.ul__card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 15px;
+}
+
+.list__card>img {
+    width: 100%;
+}

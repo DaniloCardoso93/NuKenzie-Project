@@ -1,0 +1,64 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg__logout {
+    background-color: var(--grey4);
+    width: 100%;
+    height: 100%;
+    color: var(--grey1);
+}
+
+.box__logout {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.slogan__logout {
+    width: 150px;
+    gap: 28px;
+}
+
+.box__imgLogout {
+    width: 150px;
+    height: 150px;
+}
+
+.imgLogout {
+    width: 100%;
+}
+
+.logout__btn {
+    width: 100%;
+    height: 48px;
+}
+
+@media (min-width:1000px) {
+    .box__logout {
+        width: 988px;
+        height: 100%;
+        gap: 48px;
+    }
+
+    .slogan__logout {
+        width: 274px;
+        gap: 28px;
+    }
+
+    .box__imgLogout {
+        width: 593px;
+        height: 593px;
+    }
+
+    .imgLogout {
+        width: 593px;
+    }
+
+    .logout__btn {
+        width: 241px;
+        height: 48px;
+    }
+}
